@@ -21,7 +21,7 @@ import java.nio.charset.StandardCharsets;
 
 public class SendGridHelper {
 
-    private static final String SENDGRID_API_KEY = "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"; // Replace with your actual API key
+    private static final String SENDGRID_API_KEY = "NO PUEDO PONERLA"; // Replace with your actual API key
 
     public static void sendEmail(String toEmail, String subject, String messageContent) {
         Thread thread = new Thread(new Runnable() {
