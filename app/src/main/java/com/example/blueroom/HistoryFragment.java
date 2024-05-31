@@ -66,7 +66,7 @@ public class HistoryFragment extends Fragment {
                     recyclerView.setAdapter(adapter);
                 })
                 .addOnFailureListener(e -> {
-                    Toast.makeText(getContext(), "Failed to load purchase history", Toast.LENGTH_SHORT).show();
+                    showEmptyHistoryDialog();
                 });
     }
 
